@@ -104,9 +104,9 @@ console.log(cartItem.length, cartItem);
     </div>
 
       <div className="ml-2 mr-2 mb-8  mt-[0] flex justify-center">
-        <div className='flex flex-col w-[100%] md:w-[80%] xl:w-[80%] lg:w-[80%] m-2'>
-        <p className="text-white text-3xl">Offers</p>
-          <div className="custom-card h-[150px] bg-div relative m-2 shadow-md w-[100%] md:w-[80%] xl:w-[80%] lg:w-[80%]">
+        <div className='flex flex-col w-[100%] md:w-[60%] xl:w-[60%] lg:w-[60%] m-2'>
+          <p className="text-white text-3xl m-2">Offers</p>
+          <div className="custom-card h-[150px] bg-div relative m-2 shadow-md w-[100%]">
             <Fab onClick={handleOpen} style={{backgroundColor: 'black', position: 'absolute', right: 0, bottom: 0}} aria-label="add">
               <ArrowForwardIcon style={{color: 'white'}} />
             </Fab>
