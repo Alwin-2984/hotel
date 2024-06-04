@@ -3,7 +3,7 @@ import chips from '/chips.png';
 const Category = () => {
   return(
     <div className='h-[200px] flex justify-center'>
-      <div className="w-[80%] s:w-[100%] xs:w-[100%] flex justify-center overflow-x-auto">
+      <div className="w-[100%] md:w-[80%] lg:w-[80%] xl:w-[80%] flex justify-center overflow-x-auto">
         <div className="flex">
 
         {Array.from({ length: 8 }).map((_, index) => (
