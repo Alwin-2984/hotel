@@ -28,7 +28,7 @@ export default function CartCard({cartCardOpen, handleCartCardClose}) {
         open={cartCardOpen}
         autoHideDuration={6000}
         onClose={handleCartCardClose}
-        message="Note archived"
+        message="Added to cart"
         action={action}
       />
     </div>
