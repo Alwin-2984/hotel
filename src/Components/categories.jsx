@@ -1,3 +1,5 @@
+import chips from '/chips.png';
+
 const Category = () => {
   return(
     <div className='h-[200px] flex justify-center'>
@@ -7,8 +9,10 @@ const Category = () => {
         {Array.from({ length: 8 }).map((_, index) => (
           <div
             key={index}
-            className="rounded-[50%] h-[80px] w-[80px] shadow-md bg-div m-2 hover:cursor-pointer"
-          ></div>
+            className="rounded-[50%] h-[80px] w-[80px] shadow-md bg-div m-2 hover:cursor-pointer flex justify-center items-center"
+          >
+            <img className='w-[100%]' src={chips} />
+          </div>
         ))}
         
         </div>
