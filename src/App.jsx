@@ -76,7 +76,7 @@ console.log(cartItem.length, cartItem);
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {data.map((card) => (
           
-          <div key={card?.id} className="custom-card m-2 h-[200px] w-[180px] md:w-[200px] xs:w-[200px] xl:w-[200px] bg-div shadow-md relative m-2 mb-[6em]">
+          <div key={card?.id} className="custom-card m-2 h-[200px] w-[170px] md:w-[200px] xs:w-[200px] xl:w-[200px] bg-div shadow-md relative m-2 mb-[6em]">
             <div className='absolute top-[-50%]'>
               <img className='drop-shadow-custom' src={chips} />
             </div>
